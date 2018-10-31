@@ -1,0 +1,14 @@
+{
+  "name": "quizzards",
+  "version": "1.0.0",
+  "description": "A small quiz game, to be improved upon",
+  "main": "scripts/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zakaria Moslim",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
