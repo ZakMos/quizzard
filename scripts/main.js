@@ -207,7 +207,7 @@
                 this.view.printResult('Correct! You might not be as dumb as I thought you were.');
             } else if (userAnswer.value.length === ""){
                 alert('This field is requierd, try again!');
-            } else if(userAnswer.value.length >= 1 && != current >= questions.length - 1) {
+            } else if(userAnswer.value.length >= 1) {
                 this.view.printResult('Wrong human, try again!');
             }
         }
