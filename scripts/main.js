@@ -88,7 +88,7 @@
             <form class="mt-4" id="answer-form">
               <div class="form-row">
                 <div class="col">
-                    <input type="text" class="form-control" name="answer" id="answer" placeholder="Your answer goes here..." required/>
+                    <input type="text" class="form-control" name="answer" id="answer" placeholder="Your answer goes here..." required />
                 </div>
                 <button type="submit" class="btn btn-primary" id="check-answer">Answer</button>
               </div>
