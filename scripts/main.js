@@ -200,14 +200,15 @@
             // Get the current answer from the app element
             let userAnswer = event.currentTarget.querySelector('#answer').value.trim();
 
-            if (current >= questions.length - 1){
+            if (current >= questions.length - 1)
+            {
                 this.view.printScore(score);
-            } else if(userAnswer.toLowerCase() === questions[current].answer.toLowerCase()){
+            } else if(userAnswer.toLowerCase() === questions[current].answer.toLowerCase())
+            {
                 this.state.score++;
                 this.view.printResult('Correct! You might not be as dumb as I thought you were.');
-//             } else if (userAnswer.value.length == 0){
-//                 alert('This field is requierd, try again!');
-            } else (userAnswer.value.length >= 1) {
+            } else  
+            {
                 this.view.printResult('Wrong human, try again!');
             }
         }
