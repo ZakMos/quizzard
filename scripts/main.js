@@ -205,7 +205,7 @@
             } else if(userAnswer.toLowerCase() === questions[current].answer.toLowerCase()){
                 this.state.score++;
                 this.view.printResult('Correct! You might not be as dumb as I thought you were.');
-            } else if (current == 0){
+            } else if (current === 0){
                 alert('Wrong human, try again!');
             } else {
                 this.view.printResult('Wrong human, try again!');
