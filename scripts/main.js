@@ -205,9 +205,9 @@
             } else if(userAnswer.toLowerCase() === questions[current].answer.toLowerCase()){
                 this.state.score++;
                 this.view.printResult('Correct! You might not be as dumb as I thought you were.');
-            } else if (userAnswer.value.length == 0){
-                alert('This field is requierd, try again!');
-            } else if(userAnswer.value.length >= 1) {
+//             } else if (userAnswer.value.length == 0){
+//                 alert('This field is requierd, try again!');
+            } else (userAnswer.value.length >= 1) {
                 this.view.printResult('Wrong human, try again!');
             }
         }
