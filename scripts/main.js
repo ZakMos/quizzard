@@ -206,7 +206,8 @@
                 this.state.score++;
                 this.view.printResult('Correct! You might not be as dumb as I thought you were.');
             } else {
-                this.view.printResult('Wrong human, try again!');
+                alert('Wrong human, try again!');
+//                 this.view.printResult('Wrong human, try again!');
             }
         }
 
